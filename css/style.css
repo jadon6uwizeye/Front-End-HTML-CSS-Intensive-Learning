@@ -58,9 +58,42 @@ a:hover {
 }
 
 .nav-li--cta {
-  background-color: #24198b;
+  background-color: #05771e;
   border-radius: 10px;
   padding-top: 7px;
   padding: 5px;
 }
+
+.nav-li--cta :hover,
+.nav-li--cta :active {
+  background-color: #042404;
+  color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 7px;
+  padding: 5px;
+}
+
+#product-overview{
+  background-image: url(https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  height: 500px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.plans{
+  margin : auto;
+}
+
+.plan{
+  background-color: rgb(159, 238, 212);
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
