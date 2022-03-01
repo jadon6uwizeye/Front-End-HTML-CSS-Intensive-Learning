@@ -91,8 +91,49 @@ a:hover {
   border-radius: 20px;
   text-align: center;
   padding: 30px;
+  width: 30%;
+  vertical-align: middle;
 }
 
+
+.plan--highlighted{
+  background-color: rgb(88, 165, 101);
+  box-shadow: 5px 5px 5px 5px rgba(7, 7, 7, 0.678);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.plan__title{
+  color:rgb(1, 44, 1);
+  font-style: italic;
+}
+
+.plus{
+  color: aliceblue;
+}
+
+.plan__annotation{
+  background-color: azure;
+  color:rgb(56, 204, 80);
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+
+.button{
+  background-color: rgb(1, 34, 7);
+  color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 0px;
+}
+
+.plan__feature{
+  list-style: None;
+  padding-bottom: 5px;
+  margin: 0px;
+}
 
 
 
